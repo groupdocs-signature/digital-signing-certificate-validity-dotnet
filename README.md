@@ -62,7 +62,7 @@ digital-signing-certificate-validity-dotnet/
 - **CollectingLogger.cs** - an `ILogger` that counts errors, warnings and traces so the log-level difference is measurable
 - **TestCertificates.cs** - builds self-signed PFXs in memory; no key file is committed
 - **documents/document.pdf** - the input
-- **Result/** - one signed PDF per demonstration
+- **Result/** - created at run time; one signed PDF per demonstration
 
 ## Code Examples
 
